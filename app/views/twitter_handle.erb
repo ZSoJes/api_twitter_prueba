@@ -1,0 +1,9 @@
+<br>
+<div class="head">
+  <img src="<%= @url %>" alt="avatar" width="200" height="200">
+  <p><center><%=  @full_name   %></center></p>
+</div>
+
+<% @tweets.each do |tweet| %> 
+<div class="list_tuits"> <%= tweet.tweet_w %> </div>
+<% end %>
