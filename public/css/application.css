@@ -15,6 +15,16 @@ th {
   border-radius: 10px;
   border: none;
 }
+input[type=text]{
+  border:none;
+  background-color: #bada55;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin:10px;
+}
 .head{
   float: left;
   margin: 0px; padding: 5px;
